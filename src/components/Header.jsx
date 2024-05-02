@@ -3,9 +3,9 @@ import { Link as RouterLink } from "react-router-dom";
 
 const Header = () => {
   return (
-    <Box bg="brand.900" color="white" p={4}>
+    <Box bg="brand.800" color="white" p={4} boxShadow="md">
       <Flex justifyContent="space-between" alignItems="center" maxW="container.xl" mx="auto">
-        <Box fontSize="xl" fontWeight="bold">
+        <Box fontSize="2xl" fontWeight="bold" fontFamily="serif">
           Apple Farm
         </Box>
         <Flex gap={4}>
