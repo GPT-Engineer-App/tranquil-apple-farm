@@ -6,10 +6,8 @@ const Index = () => {
   return (
     <Box>
       <Flex direction="column" align="center" justify="center">
-        <Image src="https://images.unsplash.com/photo-1526080676457-4544bf0ebba9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxhcHBsZSUyMGZhcm0lMjBOb3J3YXl8ZW58MHx8fHwxNzE0NjgwODQyfDA&ixlib=rb-4.0.3&q=80&w=1080" alt="Apple Farm" boxSize="100%" objectFit="cover">
-          <Box position="absolute" top="0" left="0" right="0" bottom="0" bg="blackAlpha.600" />
-        </Image>
-        <Heading as="h1" size="3xl" mt={5} color="white" textShadow="1px 1px 2px black">
+        <Image src="https://images.unsplash.com/photo-1526080676457-4544bf0ebba9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxhcHBsZSUyMGZhcm0lMjBOb3J3YXl8ZW58MHx8fHwxNzE0NjgwODQyfDA&ixlib=rb-4.0.3&q=80&w=1080" alt="Apple Farm" boxSize="100%" objectFit="cover" />
+        <Heading as="h1" size="2xl" mt={5}>
           Welcome to Our Apple Farm
         </Heading>
         <Text fontSize="xl" mt={2}>
